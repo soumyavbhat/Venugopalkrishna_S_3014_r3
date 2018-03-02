@@ -1,7 +1,7 @@
 <?php
 require_once('phpscripts/config.php');
 
-// confirm_logged_in();
+confirm_logged_in();
 date_default_timezone_set('America/Toronto');
 $time = date('H:m:s');
 $m = date("12:00:00");
